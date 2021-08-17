@@ -1,0 +1,40 @@
+#home-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: whitesmoke;
+    overflow-y: scroll;
+}
+
+#sticky-top {
+    position: sticky;
+    top: 0%;
+    margin-bottom: 10px;
+}
+
+#home-title {
+    padding: 20px;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#notes-list {
+    padding: 30px;
+    display: inline-flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #282c34c9;
+    text-align: start;
+    overflow-y: auto;
+    margin: 100px;
+}
+
+.floating-button {
+    transition-duration: 0.2s;
+}
+
+.floating-button:hover {
+    transform: translateX(-15px);
+}
