@@ -16,17 +16,14 @@ const NoteCard = (props) => {
           margin-bottom:30px;
           margin-left:10px;
           margin-right:10px;
-          height:275px;
-          width:250px;
-          background-image: linear-gradient(to right, ${color}, ${color});
+          height:200px;
+          width:200px;
           background-color: blue;
           border-radius: 10px;
           padding:15px;
           float: left;
           justify-content:start;
-          transition-duration: 0.15s;
           overflow: hidden;
-          transition-duration:0.2s;
           cursor:pointer;
      }`
 
